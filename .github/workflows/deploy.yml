@@ -67,7 +67,6 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            scrunter/tapir
             ghcr.io/scrunter/tapir
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
